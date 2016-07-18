@@ -1,0 +1,53 @@
+---
+
+# Primary configuration. 
+
+homeassistant:
+  name: Home
+  temperature_unit: C
+  time_zone: Australia/Melbourne
+  longitude: !secret hass_longitude
+  latitude: !secret hass_latitude
+  elevation: !secret hass_elevation
+
+
+
+# Basic components.
+
+discovery:
+
+frontend:
+
+history:
+
+logbook:
+
+sun:
+
+updater:
+
+
+
+# Advanced components.
+
+automation: !include_dir_list automation
+
+camera: !include components/camera.yaml
+
+device_tracker: !include components/device_tracker.yaml
+
+garage_door: !include components/garage_door.yaml
+
+group: !include components/group.yaml
+
+http: !include components/http.yaml
+
+light: !include components/light.yaml
+
+mqtt: !include components/mqtt.yaml
+
+# scene: !include_dir_list scenes
+
+sensor: !include components/sensor.yaml
+
+# script: !include_dir_list scripts

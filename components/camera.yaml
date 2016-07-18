@@ -1,0 +1,11 @@
+---
+
+# UVC G3 - Front
+- platform: generic
+  still_image_url: !secret camera_front
+  name: Front
+
+# UVC G3 - Side
+- platform: generic
+  still_image_url: !secret camera_side
+  name: Side

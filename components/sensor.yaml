@@ -1,0 +1,18 @@
+---
+
+# Forecast.io
+- platform: forecast
+  api_key: !secret forecast_apikey
+  monitored_conditions:
+    - summary
+    - temperature
+
+# Speedtest.net
+- platform: speedtest
+  minute:
+    - 0
+    - 30
+  monitored_conditions:
+    - ping
+    - download
+    - upload

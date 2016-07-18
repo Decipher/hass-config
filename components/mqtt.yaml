@@ -1,0 +1,5 @@
+---
+
+broker: !secret mqtt_ip
+client_id: home-assistant-1
+username: mosquitto

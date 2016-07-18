@@ -1,0 +1,8 @@
+*.db*
+@eaDir
+.DS_Store
+deps
+home-assistant.log
+known_devices.yaml
+phue.conf
+secrets.yaml

@@ -1,0 +1,50 @@
+---
+
+default_view:
+  view: yes
+  entities:
+    - group.weather
+    - group.family
+    - camera.front
+    - camera.side
+    - group.master_bedroom
+    - group.entry
+
+entry:
+  name: Entry
+  entities:
+    - light.entry
+
+family:
+  name: Family
+  entities:
+    - device_tracker.carmels_nexus_5x
+    - device_tracker.stuarts_nexus_6p
+
+internet:
+  entities:
+    - sensor.speedtest_ping
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+
+master_bedroom:
+  name: Master bedroom
+  entities:
+    - light.carmel
+    - light.stuart
+    - light.bedroom_1
+    - light.bedroom_2
+    - light.bedroom_3
+
+misc:
+  name: Miscellaneous
+  view: yes
+  entities:
+    - group.internet
+
+weather:
+  name: Weather
+  entities:
+    - sun.sun
+    - sensor.weather_summary
+    - sensor.weather_temperature

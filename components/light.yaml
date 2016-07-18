@@ -1,0 +1,5 @@
+---
+
+# Philips hue bridge.
+- platform: hue
+  host: !secret hue_ip
