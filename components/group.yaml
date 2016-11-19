@@ -37,6 +37,12 @@ master_bedroom:
     - light.bedroom_2
     - light.bedroom_3
 
+office:
+  name: Office
+  view: yes
+  entities:
+    - sensor.daikinap91667_htemp
+
 misc:
   name: Miscellaneous
   view: yes
@@ -49,4 +55,5 @@ weather:
   name: Weather
   entities:
     - sun.sun
+    - sensor.daikinap91667_otemp
     - sensor.bom_air_temp_c
