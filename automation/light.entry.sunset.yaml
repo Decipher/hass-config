@@ -8,4 +8,6 @@ action:
   service: light.turn_on
   entity_id: light.entry
   data:
+    rgb_color: [255, 0, 0]
+    brightness: 62.5
     transition: 900

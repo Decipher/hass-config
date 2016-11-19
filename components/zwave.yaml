@@ -1,0 +1,5 @@
+---
+
+usb_path: /dev/ttyUSB0
+config_path: /usr/local/share/python-openzwave/config
+polling_interval: 30000

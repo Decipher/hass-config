@@ -1,0 +1,13 @@
+---
+
+platform: mqtt
+state_topic: "home-assistant/garage-door"
+command_topic: "home-assistant/garage-door/set"
+name: "MQTT Sensor"
+optimistic: true
+retain: true
+state_open: "STATE_OPEN"
+state_closed: "STATE_CLOSED"
+service_open: "GARAGE_BUTTON"
+service_close: "GARAGE_BUTTON"
+# value_template: '{{ value.x }}'

@@ -4,11 +4,12 @@
 
 homeassistant:
   name: Home
-  temperature_unit: C
+  unit_system: metric
   time_zone: Australia/Melbourne
   longitude: !secret hass_longitude
   latitude: !secret hass_latitude
   elevation: !secret hass_elevation
+  customize: !include customize.yaml
 
 
 
@@ -24,7 +25,7 @@ logbook:
 
 sun:
 
-updater:
+# updater:
 
 
 
@@ -51,3 +52,5 @@ mqtt: !include components/mqtt.yaml
 sensor: !include components/sensor.yaml
 
 # script: !include_dir_list scripts
+
+zwave: !include components/zwave.yaml

@@ -1,0 +1,27 @@
+---
+
+alias: 'Turn on front door power'
+
+trigger:
+  - platform: sun
+    event: sunrise
+  - platform: state
+    entity_id: device_tracker.carmel_nexus5x
+    state: home
+  - platform: state
+    entity_id: device_tracker.stuart_nexus6p
+    state: home
+
+condition:
+  - condition: or
+    conditions:
+      - condition: state
+        entity_id: device_tracker.carmel_nexus5x
+        state: home
+      - condition: state
+        entity_id: device_tracker.stuart_nexus6p
+        state: home
+
+action:
+  service: switch.turn_on
+  entity_id: switch.aeotec_dsc06106_smart_energy_switch_switch_3

@@ -8,3 +8,5 @@
   track_new_devices: no
   interval_seconds: 12
   consider_home: 180
+
+- platform: owntracks

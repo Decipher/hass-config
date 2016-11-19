@@ -1,8 +1,11 @@
 *.db*
+*.log
 @eaDir
 .DS_Store
 deps
-home-assistant.log
 known_devices.yaml
+OZW_Log.txt
 phue.conf
+pyozw.sqlite
 secrets.yaml
+zwcfg*.xml

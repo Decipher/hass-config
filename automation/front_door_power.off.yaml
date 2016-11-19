@@ -1,0 +1,23 @@
+---
+
+alias: 'Turn off front door power'
+
+trigger:
+  - platform: sun
+    event: sunset
+  - platform: state
+    entity_id: group.family
+    state: not home
+
+condition:
+  - condition: or
+    conditions:
+      - condition: sun
+        after: sunset
+      - condition: state
+        entity_id: group.family
+        state: not home
+
+action:
+  service: switch.turn_off
+  entity_id: switch.aeotec_dsc06106_smart_energy_switch_switch_3
