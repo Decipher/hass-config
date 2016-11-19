@@ -1,7 +1,13 @@
 ---
 
 sensor.bom_air_temp_c:
-  friendly_name: Temperature
+  friendly_name: Temperature (BOM)
+
+sensor.daikinap91667_htemp:
+  friendly_name: Temperature (Office)
+
+sensor.daikinap91667_otemp:
+  friendly_name: Temperature (Outside)
 
 switch.aeotec_dsc06106_smart_energy_switch_switch_3:
   friendly_name: Front door power
