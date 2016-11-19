@@ -14,7 +14,7 @@ entry:
   name: Entry
   entities:
     - light.entry
-    - switch.aeotec_dsc06106_smart_energy_switch_switch_3
+    - switch.aeotec_dsc06106_smart_energy_switch_switch_3_0
 
 family:
   name: Family
@@ -43,7 +43,7 @@ misc:
   entities:
     # - group.internet
     - cover.mqtt_sensor
-    - sensor.vision_zg8101_garage_door_detector_alarm_level_5
+    - sensor.vision_zg8101_garage_door_detector_alarm_level_5_1
 
 weather:
   name: Weather

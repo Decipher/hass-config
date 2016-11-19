@@ -3,5 +3,5 @@
 sensor.bom_air_temp_c:
   friendly_name: Temperature
 
-switch.aeotec_dsc06106_smart_energy_switch_switch_3:
+switch.aeotec_dsc06106_smart_energy_switch_switch_3_0:
   friendly_name: Front door power
