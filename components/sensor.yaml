@@ -1,11 +1,11 @@
 ---
 
-# Forecast.io
-- platform: forecast
-  api_key: !secret forecast_apikey
+# Bureau of Meteorology (BOM)
+- platform: bom
+  zone_id: IDV60801
+  wmo_id: 94852
   monitored_conditions:
-    - summary
-    - temperature
+    - air_temp
 
 # Speedtest.net
 #- platform: speedtest

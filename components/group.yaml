@@ -42,12 +42,11 @@ misc:
   view: yes
   entities:
     # - group.internet
-    - garage_door.mqtt_sensor
+    - cover.mqtt_sensor
     - sensor.vision_zg8101_garage_door_detector_alarm_level_5
 
 weather:
   name: Weather
   entities:
     - sun.sun
-    - sensor.weather_summary
-    - sensor.weather_temperature
+    - sensor.bom_air_temp_c

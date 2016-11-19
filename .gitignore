@@ -2,6 +2,7 @@
 *.log
 @eaDir
 .DS_Store
+.uuid
 deps
 known_devices.yaml
 OZW_Log.txt

@@ -25,7 +25,7 @@ logbook:
 
 sun:
 
-# updater:
+updater:
 
 
 
@@ -35,9 +35,9 @@ automation: !include_dir_list automation
 
 camera: !include components/camera.yaml
 
-device_tracker: !include components/device_tracker.yaml
+cover: !include components/cover.yaml
 
-garage_door: !include components/garage_door.yaml
+device_tracker: !include components/device_tracker.yaml
 
 group: !include components/group.yaml
 
