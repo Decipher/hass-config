@@ -42,6 +42,7 @@ office:
   view: yes
   entities:
     - sensor.daikinap91667_htemp
+    - climate.daikinap91667
 
 misc:
   name: Miscellaneous

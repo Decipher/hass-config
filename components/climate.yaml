@@ -1,0 +1,5 @@
+---
+
+# Daikin
+- platform: daikin
+  ipaddress: !secret daikin_ip

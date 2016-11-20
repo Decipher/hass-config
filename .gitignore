@@ -3,6 +3,7 @@
 @eaDir
 .DS_Store
 .uuid
+__pycache__
 deps
 known_devices.yaml
 OZW_Log.txt

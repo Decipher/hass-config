@@ -35,6 +35,8 @@ automation: !include_dir_list automation
 
 camera: !include components/camera.yaml
 
+climate: !include components/climate.yaml
+
 cover: !include components/cover.yaml
 
 device_tracker: !include components/device_tracker.yaml
